@@ -4,18 +4,14 @@ sudo echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesour
 
 sudo apt update
 sudo apt install -y nodejs git
-sleep 1
-sudo git clone --branch v0.2.1 https://github.com/skyportlabs/panel
-sudo mv panel etc/skyport/
+cd /etc
+git clone --branch v0.2.1 https://github.com/skyportlabs/panel
+mv panel skyport
 cd skyport
-sleep 2
-sudo npm install
-sleep2
-clear
-sudo npm run seed
-sleep 2
-sudo npm run createUser
-sleep 2 
+npm install
+npm run seed
+npm run createUser
+
 
 echo "use 'node .' to start the panel!"
 echo "sleeping for 5 sec"
