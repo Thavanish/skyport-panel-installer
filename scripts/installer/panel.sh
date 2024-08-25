@@ -5,10 +5,10 @@ sudo echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesour
 sudo apt update
 sudo apt install -y nodejs git
 sleep 1
-sudo cd /etc
+cd /etc
 sudo git clone --branch v0.2.1 https://github.com/skyportlabs/panel
 sudo mv panel skyport
-sudo cd skyport
+cd skyport
 sleep 2
 sudo npm install
 sleep2
