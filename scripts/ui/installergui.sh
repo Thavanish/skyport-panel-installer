@@ -29,8 +29,8 @@ case $CHOICE in
             echo "installing panel......."
             clear
             echo "install panel....."
-            chmod +x panel
-            ./panel.sh
+            chmod +x scripts/installer/panel
+            bash scripts/installer/panel.sh
             ;;
         2)
             echo "installing daemon......"
