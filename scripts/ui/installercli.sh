@@ -11,16 +11,15 @@ do
         "instal1 panel")
             clear
             echo "install panel....."
-            chmod +x panel
-            ./panel.sh
-            ./installer.sh
+            chmod +x scripts/installer/panel
+            bash scripts/installer/panel.sh
             
             ;;
         "install daemon")
             clear          
             echo "install daemon........"
-            chmod +x daemon.sh
-            ./daemon.sh
+            chmod +x scripts/installer/daemon.sh
+            bash scripts/installer/daemon.sh
             
             ;;
         "install both")
@@ -28,12 +27,12 @@ do
             echo "installing panel and daemon......"
             clear
             echo "install panel....."
-            chmod +x panel.sh
-            ./panel.sh
+            chmod +x scripts/installer/panel.sh
+            bash scripts/installer/panel.sh
             clear          
             echo "install daemon........"
-            chmod +x daemon.sh
-           ./daemon.sh
+            chmod +x scripts/installer/daemon.sh
+            bash scripts/installer/daemon.sh
            
            ;;
         "remove panel")
