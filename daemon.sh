@@ -11,3 +11,7 @@ git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
 cd skyportd
 npm install
 clear
+echo "use 'node .' to start the panel!"
+echo "sleeping for 5 sec"
+sleep 5
+clear
