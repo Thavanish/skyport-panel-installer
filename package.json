@@ -1,0 +1,18 @@
+{
+  "name": "skyport-panel-installer",
+  "version": "1.0.0",
+  "description": "a skyport panel installer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thavanish",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "skyport-panel-installer"
+  },
+  "keywords": [
+    "sis"
+  ]
+}
