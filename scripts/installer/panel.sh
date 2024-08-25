@@ -10,11 +10,13 @@ sudo git clone --branch v0.2.1 https://github.com/skyportlabs/panel
 sudo mv panel skyport
 cd skyport
 sleep 2
-touch package.json
+touch /etc/skyport/package.json
 #!/bin/bash
 
-# Echo the JSON content to package.json
-cat <<EOF > package.json
+#!/bin/bash
+
+# Overwrite the existing /etc/skyport/package.json with new content
+sudo tee /etc/skyport/package.json > /dev/null <<EOF
 {
   "name": "skyport",
   "version": "0.2.1",
@@ -73,22 +75,7 @@ cat <<EOF > package.json
 }
 EOF
 
-echo "package.json has been created."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo "/etc/skyport/package.json has been updated."
 
 sudo npm install
 sleep2
