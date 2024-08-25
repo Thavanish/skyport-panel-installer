@@ -1,17 +1,18 @@
 #/bin/bash
-echo "starting install......"
+clear
+echo "script by Thavanish"
 PS3='select you prefered method:'
 options=("GUI install" "CLI install" )
 select opt in "${options[@]}"
 do
     case $opt in
         "GUI install")
-        chmod +x installergui.sh
-        ./installergui.sh
+        chmod +x scripts/ui/installergui.sh
+        bash scripts/ui/installergui.sh
         ;;
         "CLI install")
-        chmod +x installercli.sh
-        ./installercli.sh
+        chmod +x scripts/ui/installercli.sh
+        bash scripts/ui/installercli.sh
         ;;
         *) echo "invalid option $REPLY";;
     esac
