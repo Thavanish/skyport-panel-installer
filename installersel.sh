@@ -5,11 +5,11 @@ options=("GUI install" "CLI install" )
 select opt in "${options[@]}"
 do
     case $opt in
-        "GUI install..")
+        "GUI install")
         chmod +x installergui.sh
         ./installergui
         ;;
-        "CLI install...")
+        "CLI install")
         chmod +x installercli.sh
         ./installercli.sh
         ;;
