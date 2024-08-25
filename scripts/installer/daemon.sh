@@ -7,9 +7,9 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 sudo apt update
 sudo apt install -y nodejs git
 cd /etc
-git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
+sudo git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
 cd skyportd
-npm install
+sudo npm install
 clear
 echo "use 'node .' to start the panel!"
 echo "sleeping for 5 sec"
