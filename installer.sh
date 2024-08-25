@@ -1,7 +1,7 @@
 #/bin/bash
 clear
 echo "script by Thavanish"
-PS3='select you prefered method:'
+PS3='select you prefered method:[GUI install | CLI install]'
 options=("GUI install" "CLI install" )
 select opt in "${options[@]}"
 do
