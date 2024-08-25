@@ -77,8 +77,8 @@ EOF
 
 echo "/etc/skyport/package.json has been updated."
 sudo mkdir /etc/skyport/exec/
-touch /etc/skyport/exec/seed.js
-touch /etc/skyport/exec/createUser.js
+sudo touch /etc/skyport/exec/seed.js
+sudo touch /etc/skyport/exec/createUser.js
 
 #!/bin/bash
 
