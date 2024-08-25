@@ -7,7 +7,7 @@ do
     case $opt in
         "GUI install")
         chmod +x installergui.sh
-        ./installergui
+        ./installergui.sh
         ;;
         "CLI install")
         chmod +x installercli.sh
