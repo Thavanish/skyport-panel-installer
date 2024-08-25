@@ -10,7 +10,7 @@ sudo git clone --branch v0.2.1 https://github.com/skyportlabs/panel
 sudo mv panel skyport
 cd skyport
 sleep 2
-touch /etc/skyport/package.json
+sudo touch /etc/skyport/package.json
 #!/bin/bash
 
 #!/bin/bash
