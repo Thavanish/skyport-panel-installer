@@ -1,3 +1,11 @@
+echo "the files will be deleted at the destination of install......"
+sleep 10
+sudo rm -rf /etc/skyportd/*
+sudo rm -rf /etc/skyportd/*
+sudo rm -rf /etc/skyportd/*
+sudo rm -rf /etc/skyportd/*
+
+
 curl -sSL https://get.docker.com/ | CHANNEL=stable bash
 
 sudo mkdir -p /etc/apt/keyrings
