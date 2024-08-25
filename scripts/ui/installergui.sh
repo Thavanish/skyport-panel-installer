@@ -36,8 +36,8 @@ case $CHOICE in
             echo "installing daemon......"
             clear          
             echo "install daemon........"
-            chmod +x daemon.sh
-            ./daemon.sh
+            chmod +x scripts/installer/daemon.sh
+            bash scripts/installer/daemon.sh
             ;;
         3)
             echo "installing panel and dameon........."
@@ -45,12 +45,12 @@ case $CHOICE in
             echo "installing panel and daemon......"
             clear
             echo "install panel....."
-            chmod +x panel.sh
-            ./panel.sh
+            chmod +x scripts/installer/panel.sh
+            bash scripts/installer/panel.sh
             clear          
             echo "install daemon........"
-            chmod +x daemon.sh
-           ./daemon.sh
+            chmod +x scripts/installer/daemon.sh
+            bash scripts/installer/daemon.sh
             ;;
         4)
             echo "removing panel....."
