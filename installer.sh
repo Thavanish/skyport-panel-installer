@@ -1,9 +1,9 @@
 #/bin/bash
 clear
 echo "starting install......"
-#!/bin/bash
 echo "1)install panel 2)install daemon 3)install both 4)remove panel 5)remove daemon 6)quit"
-PS3='What do you want to do ?: '
+PS3='What do you want to do ?:
+1)install panel 2)install daemon 3)install both 4)remove panel 5)remove daemon 6)quit'
 options=("instal1 panel" "install daemon" "install both" "remove panel" "remove daemon" "quit")
 select opt in "${options[@]}"
 do
@@ -13,6 +13,7 @@ do
             echo "install panel....."
             chmod +x panel
             ./panel.sh
+            ./installer.sh
             
             ;;
         "install daemon")
