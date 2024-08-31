@@ -1,4 +1,3 @@
-```markdown
 # SkyPort Panel Installer
 
 Welcome to the SkyPort Panel Installer! This tool is designed to help you set up and manage your game servers efficiently through a user-friendly panel.
