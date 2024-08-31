@@ -91,6 +91,7 @@ After installation and starting the panel, you can:
    - Add, start, stop, or restart servers.
    - Monitor server performance.
    - Configure server settings.
+   - the start script should be in your home directory named start-paneld.sh
 
 ## Updating the Panel
 
