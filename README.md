@@ -46,12 +46,12 @@ To install the SkyPort Panel, follow these steps:
 
 4. **Make the installer script executable:**
     ```bash
-    chmod +x install.sh
+    chmod +x installer.sh
     ```
 
 5. **Run the installer script:**
     ```bash
-    sudo bash install.sh
+    sudo bash installer.sh
     ```
 
 6. **Follow the on-screen instructions** to complete the installation.
