@@ -1,27 +1,32 @@
 # SkyPort Panel Installer
 
-Welcome to the SkyPort Panel Installer! This tool is designed to help you set up and manage your game servers efficiently through a user-friendly panel.
+[![GitHub issues](https://img.shields.io/github/issues/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/stargazers)
+[![License](https://img.shields.io/github/license/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/blob/main/LICENSE)
+[![Development Status](https://img.shields.io/badge/development%20status-early%20stage-yellow)](https://github.com/Thavanish/skyport-panel-installer) 
+
+Welcome to the SkyPort Panel Installer! This Bash script simplifies the installation of the SkyPort Panel, originally created by the SkyPort Labs team. The SkyPort Panel provides an intuitive web interface for managing game servers.
 
 ## Features
 
-- Easy installation and setup.
-- Supports multiple game servers.
-- User-friendly web interface for server management.
-- Automated updates and backups.
-- Resource monitoring and alerts.
+- **Effortless Installation:** Streamlined setup with a few simple commands.
+- **Comprehensive Management:** Control multiple game servers from a single interface.
+- **User-Friendly Interface:** Easy access through a web browser.
+- **Automated Maintenance:** Includes features for updates and backups.
+- **Resource Monitoring:** Track server performance effectively.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
+Ensure you have the following before starting:
 
-- A server running a Debian-based Linux distribution (e.g., Ubuntu 20.04+).
-- Root or sudo access to the server.
-- Internet access for downloading dependencies.
-- Basic knowledge of Linux command line.
+- A Debian-based Linux server (e.g., Ubuntu 20.04+).
+- Root or sudo privileges.
+- Internet access to download necessary dependencies.
+- Basic knowledge of the Linux command line.
 
 ## Installation
 
-Follow these steps to install the SkyPort Panel:
+To install the SkyPort Panel, follow these steps:
 
 1. **Update your system:**
     ```bash
@@ -49,29 +54,47 @@ Follow these steps to install the SkyPort Panel:
     sudo bash install.sh
     ```
 
-6. **Follow the on-screen instructions** to complete the setup.
+6. **Follow the on-screen instructions** to complete the installation.
 
-## Usage
+## Starting the Panel
 
-Once the installation is complete, you can access the SkyPort Panel through your web browser:
+To start the SkyPort Panel, use these commands:
 
-1. **Open your browser and navigate to:**
+1. **Navigate to the SkyPort directory:**
+    ```bash
+    cd /etc/skyport
+    ```
+
+2. **Start the panel using Node.js:**
+    ```bash
+    sudo node .
+    ```
+
+3. **Repeat the process for the SkyPort daemon directory:**
+    ```bash
+    cd /etc/skyportd
+    sudo node .
+    ```
+
+4. **Access the panel through your web browser:**
     ```
     http://your-server-ip:port
     ```
     Replace `your-server-ip` with your server's IP address and `port` with the port number specified during installation.
 
-2. **Login with the credentials** provided during the installation process.
+## Usage
 
-3. **Manage your game servers**:
-   - Add new game servers.
-   - Start, stop, or restart servers.
+After installation and starting the panel, you can:
+
+- **Log in** with the credentials provided during installation.
+- **Manage game servers**:
+   - Add, start, stop, or restart servers.
    - Monitor server performance.
    - Configure server settings.
 
 ## Updating the Panel
 
-To update the SkyPort Panel, run the following commands:
+To update the SkyPort Panel, execute:
 
 ```bash
 cd skyport-panel-installer
@@ -79,28 +102,29 @@ git pull origin main
 chmod +x update.sh
 sudo bash update.sh
 ```
+Contributing
 
-## Contributing
+We welcome contributions! If you’d like to contribute:
 
-We welcome contributions! If you'd like to contribute to this project, please follow these steps:
+    Fork the repository.
+    Create a new branch (git checkout -b feature-branch-name).
+    Make your changes and commit them (git commit -am 'Add new feature').
+    Push to the branch (git push origin feature-branch-name).
+    Create a Pull Request.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch-name`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch-name`).
-5. Create a new Pull Request.
+Support
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have any questions, feel free to open an issue on GitHub or contact us via email at support@example.com.
-
----
+For any issues or questions, please open an issue on GitHub or contact us at thegreenflame1507@gmail.com.
 
 Thank you for using the SkyPort Panel Installer!
+A Little Joke to Brighten Your Day
+
+Why did the server break up with the network?
+
+Because it had too many "issues"!
+
+The SkyPort Panel Installer is a Bash script for installing the SkyPort Panel created by the SkyPort Labs team. This project is currently in its early stages of development.
+
 ```
 
-Let me know if there's anything else you'd like to adjust!
+Feel free to adjust any details or let me know if there’s anything else you’d like to include!
