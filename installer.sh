@@ -1,5 +1,8 @@
 #/bin/bash
 clear
+echo "moving"
+mv start-paneld.sh ~/
+ls
 echo "script by Thavanish"
 PS3='select you prefered method:[GUI install | CLI install | Exit] : '
 options=("GUI install" "CLI install" "Exit" )
