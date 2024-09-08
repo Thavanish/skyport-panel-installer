@@ -3,9 +3,22 @@
 [![GitHub issues](https://img.shields.io/github/issues/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/issues)
 [![GitHub stars](https://img.shields.io/github/stars/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/stargazers)
 [![License](https://img.shields.io/github/license/Thavanish/skyport-panel-installer)](https://github.com/Thavanish/skyport-panel-installer/blob/main/LICENSE)
-[![Development Status](https://img.shields.io/badge/development%20status-early%20stage-yellow)](https://github.com/Thavanish/skyport-panel-installer) 
+[![Development Status](https://img.shields.io/badge/development%20status-early%20stage-yellow)](https://github.com/Thavanish/skyport-panel-installer)
+![GitHub views](https://komarev.com/ghpvc/?username=Thavanish&color=blue)
 
 Welcome to the SkyPort Panel Installer! This Bash script simplifies the installation of the SkyPort Panel, originally created by the SkyPort Labs team. The SkyPort Panel provides an intuitive web interface for managing game servers.
+
+## Key Points
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Starting the Panel](#starting-the-panel)
+- [Usage](#usage)
+- [Updating the Panel](#updating-the-panel)
+- [Contributing](#contributing)
+- [Support](#support)
+- [A Little Joke](#a-little-joke-to-brighten-your-day)
 
 ## Features
 
@@ -91,7 +104,7 @@ After installation and starting the panel, you can:
    - Add, start, stop, or restart servers.
    - Monitor server performance.
    - Configure server settings.
-   - the start script should be in your home directory named start-paneld.sh
+   - The start script should be in your home directory named `start-paneld.sh`.
 
 ## Updating the Panel
 
@@ -107,25 +120,36 @@ Contributing
 
 We welcome contributions! If you’d like to contribute:
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch-name).
-    Make your changes and commit them (git commit -am 'Add new feature').
-    Push to the branch (git push origin feature-branch-name).
-    Create a Pull Request.
+1. Fork the repository.
+
+
+2. Create a new branch (git checkout -b feature-branch-name).
+
+
+3. Make your changes and commit them (git commit -am 'Add new feature').
+
+
+4. Push to the branch (git push origin feature-branch-name).
+
+
+5. Create a Pull Request.
+
+
 
 Support
 
 For any issues or questions, please open an issue on GitHub or contact us at thegreenflame1507@gmail.com.
 
 Thank you for using the SkyPort Panel Installer!
+
 A Little Joke to Brighten Your Day
 
 Why did the server break up with the network?
 
 Because it had too many "issues"!
 
+
+---
+
 The SkyPort Panel Installer is a Bash script for installing the SkyPort Panel created by the SkyPort Labs team. This project is currently in its early stages of development.
 
-```
-
-Feel free to adjust any details or let me know if there’s anything else you’d like to include!
