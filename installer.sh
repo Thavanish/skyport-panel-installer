@@ -3,20 +3,20 @@ clear
 echo "moving"
 mv start-paneld.sh ~/
 ls
-echo "script by Thavanish"
+echo "script by Topg"
 PS3='select you prefered method:[GUI install | CLI install | Exit] : '
 options=("GUI install" "CLI install" "Exit" )
 select opt in "${options[@]}"
 do
     case $opt in
         "GUI install")
-        chmod +x scripts/ui/installergui.sh
-        bash scripts/ui/installergui.sh
+        sudo chmod +x scripts/ui/installergui.sh
+        sudo bash scripts/ui/installergui.sh
         exit
         ;;
         "CLI install")
-        chmod +x scripts/ui/installercli.sh
-        bash scripts/ui/installercli.sh
+        sudo chmod +x scripts/ui/installercli.sh
+        sudo bash scripts/ui/installercli.sh
         exit
         ;;
         "Exit")
